@@ -1,0 +1,24 @@
+credentials:
+  usernames:
+    admin:
+      email: admin@martintravel.com
+      name: Administrador
+      password: $2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj4J/HS.iK8e # admin123
+    manager:
+      email: manager@martintravel.com
+      name: Gerente
+      password: $2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj4J/HS.iK8e # manager123
+    user:
+      email: user@martintravel.com
+      name: Usuario
+      password: $2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj4J/HS.iK8e # user123
+
+cookie:
+  expiry_days: 30
+  key: 'martin_travel_key'
+  name: 'martin_travel_cookie'
+
+preauthorized:
+  emails:
+  - admin@martintravel.com
+  - manager@martintravel.com 
